@@ -364,7 +364,10 @@ header a:hover {
   }
 }
 
-@media screen and (max-width: 385px) and (max-height: 750px) {
+@media screen and (max-width: 425px) and (max-height: 750px) {
+    .carousel .list .item .content {
+        top: 14%;
+    }
   .carousel .list .item .content .buttons {
     grid-template-columns: repeat(2, 110px);
     grid-template-rows: 32px;
