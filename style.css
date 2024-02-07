@@ -361,4 +361,16 @@ header a:hover {
   .carousel .list .item .content .title {
     font-size: 30px;
   }
+
+  .carousel .list .item .content .buttons{
+    grid-template-columns: repeat(2, 110px);
+    grid-template-rows: 32px;
+    gap: 5px;
+    margin-top: 16px; 
+  }
+
+  .thumbnail .item {
+    width: 120px;
+    height: 176px;
+  }
 }
