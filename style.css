@@ -302,8 +302,13 @@ header a:hover {
   width: 0;
   overflow: hidden;
   opacity: 0;
-  animation: showThumbnail 0.5s linear 1 forwards;
+  animation: showThumbnail 0.5s linear 1 forwards, showDes 0.5s 1s linear 1 forwards;
 }
+@keyframes showDes {
+    to {
+      opacity: 1;
+    }
+  }
 
 .carousel.prev .list .item:nth-child(2) .author,
 .carousel.prev .list .item:nth-child(2) .title,
